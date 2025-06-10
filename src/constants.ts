@@ -1,4 +1,7 @@
 import type { ProductCardPropsType } from "./components/ProductCard";
+import img1 from "./assets/1.webp";
+import img2 from "./assets/2.webp";
+import img3 from "./assets/3.webp";
 
 export const products: ProductCardPropsType[] = [
   {
@@ -7,7 +10,7 @@ export const products: ProductCardPropsType[] = [
     origin: "Непал",
     price: 80000,
     currency: "RUB",
-    imageUrl: "/assets/1.webp",
+    imageUrl: img1,
   },
   {
     id: 2,
@@ -15,7 +18,7 @@ export const products: ProductCardPropsType[] = [
     origin: "Монголия",
     price: 90000,
     currency: "RUB",
-    imageUrl: "/assets/2.webp",
+    imageUrl: img2,
   },
   {
     id: 3,
@@ -23,6 +26,6 @@ export const products: ProductCardPropsType[] = [
     origin: "КНР",
     price: 1100,
     currency: "USD",
-    imageUrl: "/assets/3.webp",
+    imageUrl: img3,
   },
 ];
