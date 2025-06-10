@@ -29,12 +29,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@eslint/js", "npm:9.28.0"],\
+          ["@types/gh-pages", "npm:6.1.0"],\
           ["@types/react", "npm:19.1.7"],\
           ["@types/react-dom", "virtual:8ebb411dcc0ecfb31c93e593bb289b811eba346665ce0a1aab275b1b6c8cac34792e4ea541c28c8dcdf4e87dac8ee352c15741a67e23d07183cef23e2438dd19#npm:19.1.6"],\
           ["@vitejs/plugin-react-swc", "virtual:8ebb411dcc0ecfb31c93e593bb289b811eba346665ce0a1aab275b1b6c8cac34792e4ea541c28c8dcdf4e87dac8ee352c15741a67e23d07183cef23e2438dd19#npm:3.10.2"],\
           ["eslint", "virtual:8ebb411dcc0ecfb31c93e593bb289b811eba346665ce0a1aab275b1b6c8cac34792e4ea541c28c8dcdf4e87dac8ee352c15741a67e23d07183cef23e2438dd19#npm:9.28.0"],\
           ["eslint-plugin-react-hooks", "virtual:8ebb411dcc0ecfb31c93e593bb289b811eba346665ce0a1aab275b1b6c8cac34792e4ea541c28c8dcdf4e87dac8ee352c15741a67e23d07183cef23e2438dd19#npm:5.2.0"],\
           ["eslint-plugin-react-refresh", "virtual:8ebb411dcc0ecfb31c93e593bb289b811eba346665ce0a1aab275b1b6c8cac34792e4ea541c28c8dcdf4e87dac8ee352c15741a67e23d07183cef23e2438dd19#npm:0.4.20"],\
+          ["gh-pages", "npm:6.3.0"],\
           ["globals", "npm:16.2.0"],\
           ["react", "npm:19.1.0"],\
           ["react-dom", "virtual:8ebb411dcc0ecfb31c93e593bb289b811eba346665ce0a1aab275b1b6c8cac34792e4ea541c28c8dcdf4e87dac8ee352c15741a67e23d07183cef23e2438dd19#npm:19.1.0"],\
@@ -1014,6 +1016,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../home/maksim/.yarn/berry/cache/@types-estree-npm-1.0.8-2195bac6d6-10c0.zip/node_modules/@types/estree/",\
         "packageDependencies": [\
           ["@types/estree", "npm:1.0.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/gh-pages", [\
+      ["npm:6.1.0", {\
+        "packageLocation": "../../../../../home/maksim/.yarn/berry/cache/@types-gh-pages-npm-6.1.0-b2ccdbda45-10c0.zip/node_modules/@types/gh-pages/",\
+        "packageDependencies": [\
+          ["@types/gh-pages", "npm:6.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3249,12 +3260,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@eslint/js", "npm:9.28.0"],\
+          ["@types/gh-pages", "npm:6.1.0"],\
           ["@types/react", "npm:19.1.7"],\
           ["@types/react-dom", "virtual:8ebb411dcc0ecfb31c93e593bb289b811eba346665ce0a1aab275b1b6c8cac34792e4ea541c28c8dcdf4e87dac8ee352c15741a67e23d07183cef23e2438dd19#npm:19.1.6"],\
           ["@vitejs/plugin-react-swc", "virtual:8ebb411dcc0ecfb31c93e593bb289b811eba346665ce0a1aab275b1b6c8cac34792e4ea541c28c8dcdf4e87dac8ee352c15741a67e23d07183cef23e2438dd19#npm:3.10.2"],\
           ["eslint", "virtual:8ebb411dcc0ecfb31c93e593bb289b811eba346665ce0a1aab275b1b6c8cac34792e4ea541c28c8dcdf4e87dac8ee352c15741a67e23d07183cef23e2438dd19#npm:9.28.0"],\
           ["eslint-plugin-react-hooks", "virtual:8ebb411dcc0ecfb31c93e593bb289b811eba346665ce0a1aab275b1b6c8cac34792e4ea541c28c8dcdf4e87dac8ee352c15741a67e23d07183cef23e2438dd19#npm:5.2.0"],\
           ["eslint-plugin-react-refresh", "virtual:8ebb411dcc0ecfb31c93e593bb289b811eba346665ce0a1aab275b1b6c8cac34792e4ea541c28c8dcdf4e87dac8ee352c15741a67e23d07183cef23e2438dd19#npm:0.4.20"],\
+          ["gh-pages", "npm:6.3.0"],\
           ["globals", "npm:16.2.0"],\
           ["react", "npm:19.1.0"],\
           ["react-dom", "virtual:8ebb411dcc0ecfb31c93e593bb289b811eba346665ce0a1aab275b1b6c8cac34792e4ea541c28c8dcdf4e87dac8ee352c15741a67e23d07183cef23e2438dd19#npm:19.1.0"],\
