@@ -7,7 +7,7 @@ export const products: ProductCardPropsType[] = [
     origin: "Непал",
     price: 80000,
     currency: "RUB",
-    imageUrl: "/1.webp",
+    imageUrl: "/assets/1.webp",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const products: ProductCardPropsType[] = [
     origin: "Монголия",
     price: 90000,
     currency: "RUB",
-    imageUrl: "/2.webp",
+    imageUrl: "/assets/2.webp",
   },
   {
     id: 3,
@@ -23,6 +23,6 @@ export const products: ProductCardPropsType[] = [
     origin: "КНР",
     price: 1100,
     currency: "USD",
-    imageUrl: "/3.webp",
+    imageUrl: "/assets/3.webp",
   },
 ];
