@@ -1,0 +1,103 @@
+.card {
+  &Container {
+    width: 100%;
+    max-width: 250px;
+    min-width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 4px 6px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    padding: 1.5rem;
+
+    &:hover {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06), 0 6px 12px rgba(0, 0, 0, 0.12);
+      transform: translateY(-2px);
+    }
+  }
+  &Header {
+    width: 100%;
+    height: 150px;
+    border: 1px solid green;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    &Title {
+      color: black;
+      width: 100%;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    &Origin {
+      color: black;
+      width: 100%;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      &Label {
+        width: 60%;
+        font-size: 12px;
+        line-height: 18px;
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: last baseline;
+      }
+      &Value {
+        height: 20px;
+        width: auto;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+      }
+    }
+    &Price {
+      color: black;
+      width: 100%;
+      height: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      &Label {
+        width: 60%;
+        font-size: 12px;
+        line-height: 18px;
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: last baseline;
+      }
+      &Value {
+        height: 20px;
+        width: auto;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+      }
+    }
+  }
+}
